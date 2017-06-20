@@ -10351,6 +10351,11 @@ address {
   position: relative;
 }
 
+.bg-image-2 {
+  background-image: url("../images/expecting-you.jpg");
+  position: relative;
+}
+
 .bg-image-1:before {
   content: '';
   position: absolute;
@@ -10390,6 +10395,10 @@ address {
 .txt-white-20 {
   color: #fff;
   opacity: .2;
+}
+
+.txt-black {
+  color: #000;
 }
 
 .txt-gray-darker {
@@ -10492,6 +10501,24 @@ a.txt-base:hover {
 .page a.text-white:hover,
 .page a.text-white:focus {
   color: #e6e6e6;
+}
+
+.specting-you {
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 0.8;
+  height: 482px;
+  margin: 0 auto;
+  width: 678px;
+}
+
+.specting-you p {
+  margin-left: -80px;
+}
+
+.specting-you-title {
+  display: inline-block;
+  margin-top: 180px;
 }
 
 .project-block {
@@ -25014,6 +25041,10 @@ html .page .offset-top-122 {
   margin-top: 122px;
 }
 
+html .page .offset-top-257 {
+  margin-top: 327px;
+}
+
 @media (min-width: 480px) {
   html .page .offset-xs-top-0 {
     margin-top: 0;
@@ -31955,7 +31986,7 @@ ul.owl-carousel li .reveal-inline-block + .reveal-inline-block {
 
 .rd-navbar-static .rd-navbar-nav-wrap {
   width: 70%;
-  text-align: center;
+  text-align: right;
 }
 
 @media (min-width: 1800px) {
@@ -32652,7 +32683,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 .header-transparent .rd-navbar-static .rd-navbar-nav > li > a, .header-transparent .rd-navbar-fullwidth .rd-navbar-nav > li > a {
-  color: #fff;
+  color: #424343;
 }
 
 .header-transparent .rd-navbar-static .rd-navbar-nav > li.focus > a,
